@@ -1,5 +1,6 @@
 ---
-
+import LinkList from '../components/LinkList.astro';
+import Auth from '../components/Auth.astro';
 ---
 
 <html lang="en">
@@ -11,6 +12,11 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Astro - HOME</h1>
+
+    <LinkList currentPage="/" />
+    
+    <Auth />
+
 	</body>
 </html>
