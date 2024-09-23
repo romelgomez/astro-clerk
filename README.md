@@ -6,7 +6,7 @@
 ## Dependencies
 
 - pnpm create astro@latest `Astro Starter Kit: Minimal`
-- pnpm add @astrojs/node
+- pnpm astro add vercel
 - pnpm add @clerk/astro
 
 ## Deploy
